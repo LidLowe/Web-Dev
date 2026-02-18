@@ -29,7 +29,7 @@ addButton.addEventListener("click", function (e) {
             newTask.remove();
         });
 
-        //Appending evetListener to done the task
+        //Appending eventListener to done the task
         taskCheckBox.addEventListener("change", function() {
             taskName.classList.toggle("done");
         });
@@ -49,5 +49,4 @@ addButton.addEventListener("click", function (e) {
         //Clear the input box
         inputBox.value = "";
     }
-
 });
