@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Gill Sans MT", monospace;
+}
+
+#headerBlock {
+    margin: auto auto 20px;
+    place-items: center;
+    padding: 0.5%;
+
+    background: #373737;
+    border-bottom: #7bdb05 solid 5px;
+}
+
+#headerBlock #titleHeader {
+    color: #7bdb05;
+}
+
+#upperBlock {
+    margin: auto auto 20px;
+
+    max-width: 20%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#upperBlock #addTaskButton {
+    cursor: pointer;
+    font-weight: bold;
+
+    border-size: 5px;
+    border-color: #7bdb05;
+    border-style: solid;
+    border-radius: 2px;
+
+    padding: 5px;
+
+    background: #ffffff;
+    color: #7bdb05;
+    transition: 0.5s;
+}
+
+#upperBlock #addTaskButton:hover{
+    background: #7bdb05;
+    color: #ffffff;
+
+    transition: 0.5s;
+}
+
+#upperBlock #taskNameText {
+    border-size: 5px;
+    border-color: #7bdb05;
+    border-style: solid;
+    border-radius: 2px;
+
+    outline: none;
+    caret-color: #7bdb05;
+    caret-shape: underscore;
+
+    padding: 5px 20px 5px 3px;
+}
+
+
+
+#lowerBlock {
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+#lowerBlock .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #7bdb05;
+    border-radius: 2px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+#lowerBlock .task .deleteTaskButton {
+    cursor: pointer;
+
+    border: 2px solid #ff2b12;
+    border-radius: 2px;
+
+    padding: 5px 3px 4px;
+
+    background-color: #ff2b12;
+    transition: 0.5s;
+}
+
+#lowerBlock .task .deleteTaskButton:hover {
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+.deleteTaskButton .deleteIcon {
+    height: 20px;
+    width: 20px;
+
+    fill: #ffffff;
+
+    transition: fill 0.5s
+}
+
+.deleteTaskButton:hover .deleteIcon {
+    height: 20px;
+    width: 20px;
+
+    fill: #ff2b12;
+
+    transition: fill 0.5s
+}
+
+#lowerBlock .task .doneCheckBox {
+    cursor: pointer;
+
+    accent-color: #7bdb05;
+
+    width: 17px;
+    height: 17px;
+}
