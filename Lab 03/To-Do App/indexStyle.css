@@ -91,7 +91,7 @@
     text-decoration: line-through;
 }
 
-#lowerBlock .task .deleteTaskButton {
+.task .deleteTaskButton {
     cursor: pointer;
 
     border: 2px solid #ff2b12;
@@ -103,7 +103,7 @@
     transition: 0.5s;
 }
 
-#lowerBlock .task .deleteTaskButton:hover {
+.task .deleteTaskButton:hover {
     background-color: #ffffff;
     transition: 0.5s;
 }
@@ -126,7 +126,7 @@
     transition: fill 0.5s
 }
 
-#lowerBlock .task .doneCheckBox {
+.task .doneCheckBox {
     cursor: pointer;
 
     accent-color: #7bdb05;
